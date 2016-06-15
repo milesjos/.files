@@ -49,9 +49,9 @@ export PROMPT_COMMAND='PS1="${BOLD}${BLUE}[${user}${host}`venv`${dir}${BLUE}]`sm
 
 
 #Set up aliases
-if [ -e ~/.aliases ] 
+if [ -e ~/.files/.aliases ] 
 then
- 	source ~/.aliases
+ 	source ~/.files/.aliases
 fi
 
 
