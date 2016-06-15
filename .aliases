@@ -1,1 +1,1 @@
-alias railsdbreset="rails db:drop && rails db:create && rails db:migrate"
+alias railsdbreset="rake db:drop && rake db:create && rake db:migrate"
