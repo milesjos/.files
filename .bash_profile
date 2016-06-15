@@ -35,6 +35,7 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 export GIT_PS1_SHOWUPSTREAM="auto"
 source ~/.git-prompt.sh
+source ~/.files/.git-completion.bash
 
 # Virtual Env function
 function venv {
