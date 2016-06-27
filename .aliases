@@ -1,12 +1,18 @@
 
-alias rails_db_reset="rake db:drop && rake db:create && rake db:migrate"
-
+# ls
+alias ll="ls -l"
+alias la="ls -a"
 alias lal="ls -al"
 
+# git
 alias gst="git status"
 alias ga="git add"
 alias gaa="git add --all"
 alias gcmsg="git commit -m"
 alias gp="git push"
 alias gf="git fetch"
+
+# rails
+alias rails_db_reset="rake db:drop && rake db:create && rake db:migrate"
+alias be="bundle exec"
 
