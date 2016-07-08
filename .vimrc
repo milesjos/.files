@@ -5,6 +5,7 @@ colorscheme ron
 
 "Numbers are nice
 set number
+set rnu
 set ruler
 
 "Set backspace to work correctly
