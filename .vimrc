@@ -24,3 +24,6 @@ set shiftwidth=2
 
 "Set default filetype to unix
 set ffs=unix,dos,mac
+
+"Mouse please
+set mouse=a
