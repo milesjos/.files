@@ -16,6 +16,7 @@ alias gaa="git add --all"
 alias gcmsg="git commit -m"
 alias gp="git push"
 alias gf="git fetch"
+alias gdf="git diff"
 
 # rails
 alias rails_db_reset="rake db:drop && rake db:create && rake db:migrate"
