@@ -21,4 +21,4 @@ alias gdf="git diff"
 # rails
 alias rails_db_reset="rake db:drop && rake db:create && rake db:migrate"
 alias be="bundle exec"
-
+alias rs="rails s"
