@@ -2,6 +2,9 @@
 #   git config --global core.excludesfile ~/.gitignore
 #   ln -s ~/.files/.gitignore ~/.gitignore
 
-#swap files
+# swap files
 *.swp
 *.swo
+
+# Mac
+.DS_Store
