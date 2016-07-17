@@ -1,6 +1,6 @@
 # Run these commands to use as global .gitignore
-#   git config --global core.excludesfile ~/.gitignore
-#   ln -s ~/.files/.gitignore ~/.gitignore
+#   git config --global core.excludesfile ~/.gitignore_global
+#   ln -s ~/.files/.gitignore ~/.gitignore_global
 
 # swap files
 *.swp
