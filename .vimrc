@@ -29,11 +29,17 @@ set ffs=unix,dos,mac
 "Mouse please
 set mouse=a
 
-"Macros
+"Hide swap files in netrw
+let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""
+"" Macros
 """""""""""""""""""""""""""""""""""""""""""""""""
 
 "CSS
 "Pretty comment header
 let @h = "i//////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////k"
 
+"JS
+"console.log
 let @l = "oconsole.log();bl"
