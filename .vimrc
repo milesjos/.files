@@ -29,6 +29,12 @@ set ffs=unix,dos,mac
 "Mouse please
 set mouse=a
 
+"Indent based folding
+set foldmethod=indent
+
+"Space to fold
+nnoremap <Space> za
+
 "Hide swap files in netrw
 let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
 
