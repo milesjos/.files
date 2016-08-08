@@ -23,3 +23,6 @@ alias rails_db_reset="rake db:drop && rake db:create && rake db:migrate"
 alias be="bundle exec"
 alias rs="rails s"
 alias rc="rails c"
+
+# macvim
+alias vim="mvim -v"
