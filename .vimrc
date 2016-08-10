@@ -6,7 +6,18 @@ colorscheme ron
 "Numbers are nice
 set number
 set rnu
-set ruler
+
+"Statusline. So in this year
+set laststatus=2
+set statusline+=%F
+set statusline+=%c,
+set statusline+=%l/%L
+set statusline+=\ %P
+
+if version >= 700
+  au InsertEnter * hi StatusLine ctermfg=231 ctermbg=37
+  au InsertLeave * hi StatusLine ctermfg=102 ctermbg=18
+endif
 
 "Set backspace to work correctly
 set backspace=indent,eol,start
@@ -35,8 +46,21 @@ set foldmethod=indent
 "Space to fold
 nnoremap <Space> za
 
+"""""""""""""""""""""""""""""""""""""""""""""""""
+"" Netrw
+"""""""""""""""""""""""""""""""""""""""""""""""""
+
 "Hide swap files in netrw
 let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
+
+"Save the trees
+let g:netrw_liststyle=3
+
+"Remove annoying top banner
+let g:netrw_banner=0
+
+"Open new windows in new tab
+let g:netrw_browse_split=3
 
 """""""""""""""""""""""""""""""""""""""""""""""""
 "" Macros
