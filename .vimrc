@@ -61,6 +61,9 @@ let g:netrw_banner=0
 "Open new windows in new tab
 let g:netrw_browse_split=3
 
+"Line numbers pleaze
+let g:netrw_bufsettings = "noma nomod nu nobl nowrap ro rnu"
+
 """""""""""""""""""""""""""""""""""""""""""""""""
 "" Macros
 """""""""""""""""""""""""""""""""""""""""""""""""
