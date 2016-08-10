@@ -9,8 +9,7 @@ set rnu
 
 "Statusline. So in this year
 set laststatus=2
-set statusline+=%F
-set statusline+=%c,
+set statusline+=%F%=
 set statusline+=%l/%L
 set statusline+=\ %P
 
