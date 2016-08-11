@@ -39,6 +39,9 @@ set ffs=unix,dos,mac
 "Mouse please
 set mouse=a
 
+"Use the global clipboard (macvim only)
+set clipboard=unnamed
+
 "Indent based folding
 set foldmethod=indent
 
