@@ -1,3 +1,6 @@
+# Before doing anything upgrade to bash 4
+# http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/
+
 #################################
 # PROMPT
 #################################
