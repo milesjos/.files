@@ -54,4 +54,5 @@ then
  	source ~/.files/.aliases
 fi
 
-
+#Vi mode
+set -o vi
