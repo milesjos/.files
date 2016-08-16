@@ -48,6 +48,9 @@ set foldmethod=indent
 "Space to fold
 nnoremap <Space> za
 
+"Write with W!!!!
+:command W w
+
 """""""""""""""""""""""""""""""""""""""""""""""""
 "" Netrw
 """""""""""""""""""""""""""""""""""""""""""""""""
