@@ -10,3 +10,6 @@ source $OMF_PATH/init.fish
 if [ -f $HOME/.config/fish/aliases.fish ]
   . $HOME/.config/fish/aliases.fish    
 end
+
+# vim mode 
+set -g theme_display_vi yes
