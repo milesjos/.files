@@ -1,5 +1,7 @@
-#History search up and down
-## arrow up
-"\e[A":history-search-backward
-## arrow down
-"\e[B":history-search-forward
+$if Bash
+  #History search up and down
+  ## arrow up
+  "\e[A":history-search-backward
+  ## arrow down
+  "\e[B":history-search-forward
+$endif
