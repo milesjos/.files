@@ -1,4 +1,6 @@
 package rbenv
+package rvm
+package thefuck
 theme bobthefish
 theme default
 theme shellder
