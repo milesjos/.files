@@ -1,3 +1,7 @@
+# ls
+alias la "ls -al"
+alias ll "ls -l"
+
 # ..
 alias .... "cd ../.."
 alias ...... "cd ../../.."
