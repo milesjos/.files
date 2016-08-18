@@ -11,6 +11,11 @@ if [ -f $HOME/.config/fish/aliases.fish ]
   . $HOME/.config/fish/aliases.fish    
 end
 
+# Load abbreviations
+if [ -f $HOME/.config/fish/abbr.fish ]
+  . $HOME/.config/fish/abbr.fish    
+end
+
 # vim mode 
 set -g theme_display_vi yes
 

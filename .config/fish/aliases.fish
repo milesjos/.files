@@ -4,12 +4,10 @@ alias ...... "cd ../../.."
 
 # git
 alias gst "git status"
-alias ga "git add"
 alias gaa "git add --all"
 alias gcmsg "git commit -m"
 alias gp "git push"
 alias gf "git fetch"
-alias gdf "git diff"
 
 # rails
 alias rails_db_reset "rake db:drop; and rake db:create; and rake db:migrate"
