@@ -13,3 +13,5 @@ end
 
 # vim mode 
 set -g theme_display_vi yes
+
+rvm default
