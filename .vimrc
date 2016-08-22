@@ -51,6 +51,15 @@ nnoremap <Space> za
 "Write with W!!!!
 :command W w
 
+"Change cursor type in depending on vim mode in iTerm2
+if $TERM_PROGRAM =~ "iTerm"
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
+  let &t_EI = "\<Esc>]50;CursorShape=2\x7" " Underline in normal mode
+endif
+
+"Get rid of <esc> delay
+set timeoutlen=1000 ttimeoutlen=0
+
 """""""""""""""""""""""""""""""""""""""""""""""""
 "" Netrw
 """""""""""""""""""""""""""""""""""""""""""""""""
