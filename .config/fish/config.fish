@@ -20,3 +20,5 @@ end
 set -g theme_display_vi yes
 
 rvm default
+
+set -g theme_date_format "+%a %b %d %I:%M:%S %Y"
