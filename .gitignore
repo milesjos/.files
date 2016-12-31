@@ -7,7 +7,7 @@
 *.swo
 
 # Mac
-.DS_Store
+*/.DS_Store
 
 # Python
 __pycache__/
