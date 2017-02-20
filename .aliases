@@ -26,3 +26,7 @@ alias rc="rails c"
 
 # macvim
 alias vim="mvim -v"
+
+# make
+alias mk="make"
+alias mkc="make clean"
