@@ -63,6 +63,9 @@ endif
 "Get rid of <esc> delay
 set timeoutlen=1000 ttimeoutlen=0
 
+"Start searching before pressing enter
+set incsearch
+
 """""""""""""""""""""""""""""""""""""""""""""""""
 "" Netrw
 """""""""""""""""""""""""""""""""""""""""""""""""
