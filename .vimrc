@@ -1,3 +1,6 @@
+"Pathogen for plugins
+execute pathogen#infect()
+
 "Syntax and colors first because they are obviously the most important
 syntax on
 set background=light
