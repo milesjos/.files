@@ -4,7 +4,7 @@ execute pathogen#infect()
 "Syntax and colors first because they are obviously the most important
 syntax on
 set background=light
-colorscheme ron 
+colorscheme Tomorrow-Night-Eighties
 
 "Numbers are nice
 set number
@@ -15,11 +15,6 @@ set laststatus=2
 set statusline=%F%=
 set statusline+=%l/%L
 set statusline+=\ %P
-
-if version >= 700
-  au InsertEnter * hi StatusLine ctermfg=231 ctermbg=37
-  au InsertLeave * hi StatusLine ctermfg=102 ctermbg=18
-endif
 
 "Set backspace to work correctly
 set backspace=indent,eol,start
