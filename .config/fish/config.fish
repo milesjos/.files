@@ -19,6 +19,8 @@ end
 # vim mode 
 set -g theme_display_vi yes
 
-rvm default
+if test -d /usr/local/rvm
+  rvm default
+end
 
 set -g theme_date_format "+%a %b %d %I:%M:%S %Y"
