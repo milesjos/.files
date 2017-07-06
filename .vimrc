@@ -1,6 +1,12 @@
 "Pathogen for plugins
 execute pathogen#infect()
 
+"Powerline
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+set laststatus=2
+
 "Syntax and colors first because they are obviously the most important
 syntax on
 set background=light
@@ -9,12 +15,6 @@ colorscheme Tomorrow-Night-Eighties
 "Numbers are nice
 set number
 set rnu
-
-"Statusline. So in this year
-set laststatus=2
-set statusline=%F%=
-set statusline+=%l/%L
-set statusline+=\ %P
 
 "Set backspace to work correctly
 set backspace=indent,eol,start
